@@ -26,6 +26,7 @@ logging.info("ERLC AutoSolver made by TheSynapseGuy on V3rm")
 logging.warn("This is a simple script that will finish the robbery puzzles for you. This was last updated on @@B@@@@BLUE@@20/11/2022@@DEFAULT@@")
 logging.info("Always keep your cursor inside the window when using this script. If you don't, the script will not work.")
 logging.info("If you have any issues, please contact me on V3rm @@RED@@ONLY@@DEFAULT@@ if this script has been updated in the past month.")
+logging.warn("!!WARNING!! THIS SCRIPT IS NO LONGER BEING MAINTAINED, USE IT AT YOUR OWN RISK I AM NOT RESPONSIBLE FOR ANYTHING !!WARNING!!")
 local function hookgamemenu(child)
     local success, message = pcall(function()
         if child.Name == "GameMenus" and child:IsA("ScreenGui") then
